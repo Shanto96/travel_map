@@ -1,0 +1,49 @@
+.card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+label{
+    font-weight: bold;
+    font-size: 16px;
+    color: #003163;
+    margin-top: 10px;
+    display: block;
+}
+.username {
+    color: #060e16;
+    font-size: 20px;
+
+}
+.date{
+    color: grey;
+}
+.add-form {
+    margin: 10px;
+}
+.add-form label{
+    margin-bottom: 10px;
+}
+.add-form input {
+    border: none;
+    border-bottom: 1px solid #003163;
+    width: 100%;
+}
+.add-form[type=text] input:focus{
+    border: none !important;
+    border-bottom: 1px solid #003163;
+}
+.add-form textarea,select {
+    border: none;
+    border-bottom: 1px solid #003163;
+    width: 100%;
+}
+.add-place-button{
+    width: 100%;
+    background-color: #003163;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0px;
+
+}
